@@ -1,6 +1,7 @@
 # WebGLでCyclic Cellular Automata(Cyclic CA)
 
 観賞用です。
+three.jsを利用しています。
 
 ##　Cyclic CAとは
 
