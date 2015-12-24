@@ -101,4 +101,3 @@ T_R = R + 2 + T_R-1
 ## バグ
 
 - C6以上に設定すると挙動がおかしくなる。
-- C6の場合、fragmentShaderのcellState()の戻り値が
