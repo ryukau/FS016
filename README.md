@@ -44,12 +44,6 @@ http://www.mirekw.com/ca/rullex_cycl.html
 - Squarish Spirals (R2/T2/C6/NN)
 - Turbulent phase (R2/T5/C8/NM)
 
-## 自作ルール
-
-- R10/T23/C17/NM
-- R10/T[1, 18]/C17/NM (T18は途中で止まる可能性がある)
-- R2/T2/C15/NN
-
 ### C3/NN Cubismに似たルール
 
 T_R
