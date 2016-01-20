@@ -29,46 +29,46 @@ http://www.mirekw.com/ca/rullex_cycl.html
 - 3-color bootstrap (R2/T11/C3/NM)
 - Amoeba (R3/T10/C2/NN)
 - Black vs White (R5/T23/C2/NN)
+- CCA (R1/T1/C14/NN)
 - Cubism (R2/T5/C3/NN)
+- Cyclic spirals (R3/T5/C8/NM)
 - Fossil debris (R2/T9/C4/NM)
 - Imperfect (R1/T2/C4/NM)
 - LavaLamp (R2/T10/C3/NM)
 - Maps (R2/T3/C5/NN)
 - Perfect (R1/T3/C4/NM)
+- Squarish Spirals (R2/T2/C6/NN)
 - Stripes (R3/T4/C5/NN)
+- Turbulent phase (R2/T5/C8/NM)
 
 ### 動作しなかったルール
 
-- CCA (R1/T1/C14/NN, C15なら動く)
-- Cyclic spirals (R3/T5/C8/NM)
-- Squarish Spirals (R2/T2/C6/NN)
-- Turbulent phase (R2/T5/C8/NM)
-
 ## 自作ルール
 
+- R1/T2/C6/NM
+- R1/T2/C9/NM
+- R2/T2/C15/NN
 - R10/T23/C17/NM
 - R10/T[1, 18]/C17/NM (T18は途中で止まる可能性がある)
-- R2/T2/C15/NN
+- R5/T2/C128/NM (正確な動作かは怪しい)
 
 ### C3/NN Cubismに似たルール
 
-T_R
 
-- T_0  = 1 // 存在しない
-- T_1  = 2
-- T_2  = 5
-- T_3  = 10
-- T_4  = 17
-- T_5  = 26
-- T_6  = 37
-- T_7  = 50
-- T_8  = 65
-- T_9  = 82
-- T_10 = 101
-- T_11 = 122
-- T_12 = 145
+- T2/R1
+- T5/R2
+- T10/R3
+- T17/R4
+- T26/R5
+- T37/R6
+- T50/R7
+- T65/R8
+- T82/R9
+- T101/R10
+- T122/R11
+- T145/R12
 
-Rを増やした時の大まかな予想値
+Rを増やした時の大まかなTの予想値
 
 ```
 T_R = 2*R - 1 + T_R-1
@@ -92,7 +92,7 @@ R毎の発振しない最小のT。
 - R9/T59, T58は不安定
 - R10/T74, T71 vec2(4000000.0, 2000.0))で収束を確認
 
-Rを増やした時の大まかな予想値
+Rを増やした時の大まかなTの予想値
 
 ```
 T_R = R + 2 + T_R-1
