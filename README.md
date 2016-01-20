@@ -43,6 +43,7 @@ http://www.mirekw.com/ca/rullex_cycl.html
 
 ### 動作しなかったルール
 
+<<<<<<< HEAD
 ## 自作ルール
 
 - R1/T2/C6/NM
@@ -55,6 +56,15 @@ http://www.mirekw.com/ca/rullex_cycl.html
 ### C3/NN Cubismに似たルール
 
 
+=======
+- CCA (R1/T1/C14/NN, C15なら動く)
+- Cyclic spirals (R3/T5/C8/NM)
+- Squarish Spirals (R2/T2/C6/NN)
+- Turbulent phase (R2/T5/C8/NM)
+
+### C3/NN Cubismに似たルール
+
+>>>>>>> 9d7e60c356c5b8c92309c89202da1d733e8f7b93
 - T2/R1
 - T5/R2
 - T10/R3
@@ -101,4 +111,3 @@ T_R = R + 2 + T_R-1
 ## バグ
 
 - C6以上に設定すると挙動がおかしくなる。
-- C6の場合、fragmentShaderのcellState()の戻り値が
