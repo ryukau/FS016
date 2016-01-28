@@ -43,7 +43,6 @@ http://www.mirekw.com/ca/rullex_cycl.html
 
 ### 動作しなかったルール
 
-<<<<<<< HEAD
 ## 自作ルール
 
 - R1/T2/C6/NM
@@ -64,7 +63,6 @@ http://www.mirekw.com/ca/rullex_cycl.html
 
 ### C3/NN Cubismに似たルール
 
->>>>>>> 9d7e60c356c5b8c92309c89202da1d733e8f7b93
 - T2/R1
 - T5/R2
 - T10/R3
